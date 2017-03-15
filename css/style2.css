@@ -1,0 +1,45 @@
+body{
+    padding-top: 60px;
+}
+
+nav{
+    background: yellow; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.contenedor{
+    max-width: 1000px;
+    margin: auto;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    padding: 5px;
+}
+h3{
+    display: inline-block;
+}
+header{
+    background: pink;
+    text-align: center;
+    padding:100px 0; 
+}
+.nosotros{
+    background: cyan;
+    padding: 100px 0;
+}
+.nosotros article{
+    display: inline-block;
+    width: 48%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.texto:last-child{
+    padding-right: 0;
+}
+.texto:first-child{
+    padding-left: 0;
+}
